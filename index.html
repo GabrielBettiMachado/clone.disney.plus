@@ -13,7 +13,7 @@
                 <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
             </h1>
             <ul class="header__links">
-                <li class="header__links__item">
+                <li class="header__links__item ">
                     <a href="#" class="button button--secondary">Assine agora</a>
                 </li>
                 <li class="header__links__item">
@@ -170,7 +170,11 @@
         </div>
     </section>
     <section class="img-text-section img-text-section--image-full-width">
-        <img src="./dist/images/fundo_rei_leao.png" alt="rei leao">
+        
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="rei leao">
+        </picture>
         <div class="img-text-section__text_content img-text-section--image-full-width__text_content">
             <h2 class="title">Baixe filmes e séries</h2>
             <p class="text--big">
